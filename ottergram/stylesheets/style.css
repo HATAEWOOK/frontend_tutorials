@@ -89,7 +89,7 @@ a {
 
 .thumbnail-list::-webkit-scrollbar {
     width: 5px;
-    height: 10px;
+    height: 20px;
 }
 .thumbnail-list::-webkit-scrollbar-thumb {
     background-color: #2f3542;
@@ -115,6 +115,8 @@ a {
 
 .detail-image {
     width: 90%;
+    max-height: 720px;
+    overflow: hidden;
 }
 
 .detail-image-title {
